@@ -4,9 +4,7 @@ import com.registro.registropersonas.model.Usuario;
 import org.jooq.DSLContext;
 import org.jooq.Field;
 import org.jooq.Table;
-
 import java.sql.SQLIntegrityConstraintViolationException;
-
 import static org.jooq.impl.DSL.name;
 import static org.jooq.impl.DSL.table;
 

@@ -37,6 +37,5 @@ public class RegistroUsuarioServlet extends HttpServlet {
             request.setAttribute("status","Complete todos los campos");
         }
         requestDispatcher.forward(request,response);
-
     }
 }
