@@ -44,6 +44,5 @@ public class ListadoUsuarioServlet extends HttpServlet {
         List<Usuario> listaUsuarios = new ArrayList<>();
         listaUsuarios.add(new Usuario("Juan", 25, "123456789"));
         listaUsuarios.add(new Usuario("María", 30, "987654321"));
-        // Agrega más usuarios según sea necesario
         return listaUsuarios;
     }
