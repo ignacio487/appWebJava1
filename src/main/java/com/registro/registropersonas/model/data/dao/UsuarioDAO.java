@@ -26,10 +26,10 @@ public class UsuarioDAO {
             results = query.insertInto(usuarioTabla, columnas[0], columnas[1], columnas[2])
                     .values(nombre, edad, rut)
                     .execute();
-            // Código adicional a realizar en caso de éxito en la ejecución de la consulta
+            // Código adicional a realizar en caso de éxito en la realizacion de la consulta
 
         } catch (Exception e) {
-            // Manejo de la excepción ocurrida durante la ejecución de la consulta
+            // Manejo de la excepción ocurrida durante la realizacion de la consulta
 
             // Por ejemplo, imprimir el mensaje de error
             System.err.println("Error al ejecutar la consulta: " + e.getMessage());
