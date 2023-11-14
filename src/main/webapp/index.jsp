@@ -8,10 +8,13 @@
 <body>
 <h1 class="encabezado"> Menú Principal Usuarios</h1>
 <br>
-<form action="registroUsuario" method="get">
-    <div class="centrado">
-        <input type="submit" value="Registrar usuario" class="boton">
+<form action="registroUsuario" method="post">
+    <div class="inputs">
+        <input name="nombre" type="text" placeholder="Nombre">
+        <input name="edad" type="text" placeholder="Edad">
+        <input name="rut" type="text" placeholder="Rut">
     </div>
+    <input type="submit" value="Registrar Usuario">
 </form>
 </body>
 </html>

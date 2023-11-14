@@ -1,6 +1,5 @@
 package com.registro.registropersonas.model.data;
 
-import org.jooq.Constraints;
 import org.jooq.DataType;
 import org.jooq.DSLContext;
 import org.jooq.SQLDialect;

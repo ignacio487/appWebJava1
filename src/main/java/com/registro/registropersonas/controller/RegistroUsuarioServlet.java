@@ -17,7 +17,9 @@ public class RegistroUsuarioServlet extends HttpServlet {
         RequestDispatcher requestDispatcher=request.getRequestDispatcher("/registroUsuario.jsp");
         requestDispatcher.forward(request,response);
     }
+    @Override
     protected void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException{
+        System.out.println("ssss");
         String nombre=request.getParameter("nombre");
         int edad= Integer.parseInt(
                 request.getParameter("edad").isEmpty()?"0":request.getParameter("edad"));
